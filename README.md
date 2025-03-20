@@ -2,7 +2,7 @@
 Projeto de um gerador de senhas. Nele é possível criar senhas aleatórias, configurando a quantidade e os tipos de caracteres.
 
 
-![inicio](inicio.jpeg)
+![inicio](/assets/inicio.jpeg)
 
 
 
