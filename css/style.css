@@ -44,7 +44,7 @@ body {
 #password_container {
     background-color: var(--color-neutral-2);
     width: 100%;
-    max-width: 25rem;
+    max-width: 20rem;
     display: none;
     justify-content: space-between;
     align-items: center;
