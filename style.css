@@ -37,15 +37,19 @@ body {
     font-weight: 500;
 }
 
-#password-container {
+#password_container {
     background-color: var(--color-neutral-2);
     width: 100%;
     max-width: 25rem;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     border-style: 0.5rem;
     padding: 0.7rem 1rem;
+}
+
+#password_container.show {
+    display: flex;
 }
 
 #password {
@@ -70,7 +74,7 @@ body {
     color: var(--color-primary-2);
 }
 
-#password-settings {
+#password_settings {
     background-color: var(--color-neutral-2);
     display: flex;
     flex-direction: column;

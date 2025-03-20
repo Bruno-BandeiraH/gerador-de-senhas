@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Gerador de Senhas</title>
 </head>
 <body>
@@ -13,14 +14,14 @@
         <img src="" alt="">
         <h1>Gerador de senhas</h1>
 
-        <div id="password-container">
+        <div id="password_container">
             <span id="password"></span>
             <button id="copy">
                 <i class="fa-solid fa-copy"></i>
             </button>
         </div>
 
-        <div id="password-settings">
+        <div id="password_settings">
 
             <div class="settings">
                 <input type="number" name="size" id="size">
@@ -28,23 +29,23 @@
             </div>
             
             <div class="settings">
-                <input type="checkbox" name="include-uppercase" id="include-uppercase">
-                <label for="include-uppercase">Incluir letras maiúsculas</label>
+                <input type="checkbox" name="include_uppercase" id="include_uppercase">
+                <label for="include_uppercase">Incluir letras maiúsculas</label>
             </div>
 
             <div class="settings">
-                <input type="checkbox" name="include-lowercase" id="include-lowercase">
-                <label for="include-lowercase">Incluir letras minúsculas</label>
+                <input type="checkbox" name="include_lowercase" id="include_lowercase">
+                <label for="include_lowercase">Incluir letras minúsculas</label>
             </div>
 
             <div class="settings">
-                <input type="checkbox" name="include-numbers" id="include-numbers">
-                <label for="include-numbers">incluir números</label>
+                <input type="checkbox" name="include_numbers" id="include_numbers">
+                <label for="include_numbers">incluir números</label>
             </div>
 
             <div class="settings">
-                <input type="checkbox" name="include-simbols" id="include-simbols">
-                <label for="include-simbols">incluir símbolos</label>
+                <input type="checkbox" name="include_symbols" id="include_symbols">
+                <label for="include_symbols">incluir símbolos</label>
             </div>
 
         </div>
@@ -55,5 +56,7 @@
 
     </div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
