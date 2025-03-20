@@ -5,7 +5,6 @@ Projeto de um gerador de senhas. Nele é possível criar senhas aleatórias, con
 ![inicio](/assets/inicio.jpeg)
 
 
-
 ## Como usar
 Clique <a href="https://gerador-de-senhas-blond.vercel.app/" target="_blank">aqui</a> para ser redirecionado para o site.
 
