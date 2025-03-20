@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --color-primary-1: #8BC34A;
+    --color-primary-2: #8BC34AA6;
+
+    --color-neutral-1: #F8FAFC;
+    --color-neutral-2: #24232B;
+    --color-neutral-3: #13121A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-neutral-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: var(--color-neutral-1);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#title {
+    font-weight: 500;
+}
+
+#password-container {
+    background-color: var(--color-neutral-2);
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: 0.5rem;
+    padding: 0.7rem 1rem;
+}
+
+#password {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#copy {
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary-1);
+    height: 1.5rem;
+    width: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+#copy:hover {
+    color: var(--color-primary-2);
+}
+
+#password-settings {
+    background-color: var(--color-neutral-2);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    min-width: 100%;
+}
+
+.settings {
+    display: flex;
+    gap: .5rem;
+}
+
+#size {
+    width: 3rem;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+#size::webkit-iiner-spin-button,
+#size::webkit-iiner-spin-button {
+    opacity: 1;
+}
+
+#generate {
+    background-color: var(--color-primary-1);
+    width: 100%;
+    height: 3rem;
+    border-radius: 4px;
+    border: none;
+    margin: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: backgound-color .4s;
+}
+
+#generate:hover {
+    background-color: var(--color-primary-2);
+}
