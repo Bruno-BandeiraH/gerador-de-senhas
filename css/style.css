@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: .5rem;
     color: var(--color-neutral-1);
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #password_image {
-    width: 6rem;
+    width: 6.5rem;
 }
 
 #title {
@@ -46,15 +46,11 @@ body {
     background-color: var(--color-neutral-2);
     width: 100%;
     max-width: 20rem;
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-style: 0.5rem;
     padding: 0.7rem 1rem;
-}
-
-#password_container.show {
-    display: flex;
 }
 
 #password {
